@@ -13,3 +13,49 @@ if(x > y) then{
     write " y é maior que x";
 }
 
+function soma(x,y){
+  write "Digite o x:";
+  read x;
+  write "Digite o y:";
+  read y;
+  z = x + y;
+  write "A soma de x e y é: ";
+  write z;
+}
+
+write "Chamada da função";
+write "A soma de x e y é: ";
+soma();
+soma();
+write "Fim da chamada de função";
+
+write "informe um número:";
+read x;
+write "informe outro número";
+read y;
+if (x > y) then {
+  write "X é maior que Y";
+} else { 
+  if (x < y) then {
+    write "Y é maior que X";
+  } else {
+    write "Y e X são iguais"; 
+  }
+}
+
+write "Digite um número:";
+read i;
+write "Digite outro número:";
+read j;
+a = i + j;
+b = i - j;
+c = i * j;
+d = i / j;
+write "A soma de i e j é: ";
+write a;
+write "A subtração de i e j é: ";
+write b;
+write "A multiplicação de i e j é: ";
+write c;
+write "A divisão de i e j é: ";
+write d;
