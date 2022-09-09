@@ -1,0 +1,15 @@
+write "informe um numero";
+read x;
+write "informe um numero";
+read y;
+a = x + y;
+write "A soma de x e y é:";
+write a;
+
+if(x > y) then{
+    write "X é maior que Y";
+
+}else {
+    write " y é maior que x";
+}
+
