@@ -1,29 +1,15 @@
-write "informe um numero";
-read x;
-write "informe um numero";
-read y;
-a = x + y;
-write "A soma de x e y é:";
-write a;
-
-if(x > y) then{
-    write "X é maior que Y";
-
-}else {
-    write " y é maior que x";
-}
 
 function soma(x,y){
-  write "Digite o x:";
+  write "Digite um numero para  x:";
   read x;
-  write "Digite o y:";
+  write "Digite um numero para  y:";
   read y;
   z = x + y;
   write "A soma de x e y é: ";
   write z;
 }
 
-write "Chamada da função";
+write "Function ";
 write "A soma de x e y é: ";
 soma();
 soma();

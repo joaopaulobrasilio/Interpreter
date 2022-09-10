@@ -86,6 +86,7 @@ term:
       factor '*' term       # termMult
     | factor '/' term       # termDiv
     | factor                # termFactor
+    | factor '%' term
     ;           
 
 factor: 
@@ -114,6 +115,7 @@ GT : '>';
 LE : '<=';
 GE : '>=';
 NE : '!=';
+NI : '%';
 BOOL_TRUE: 'true';
 BOL_FALSE: 'false';
 IF: [iI][fF];
